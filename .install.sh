@@ -106,8 +106,6 @@ python3 -m pip install --user --upgrade pynvim
 gem install neovim
 gem environment
 
-
-
 # Mac App Store Apps
 echo "Installing Mac App Store Apps..."
 mas install 1451685025 #Wireguard
@@ -158,7 +156,7 @@ sudo defaults write /Library/Preferences/com.apple.airport.bt.plist bluetoothCoe
 
 # Copying and checking out configuration files
 echo "Planting Configuration Files..."
-[ ! -d "$HOME/dotfiles" ] && git clone --bare git@github.com:FelixKratz/dotfiles.git $HOME/dotfiles
+[ ! -d "$HOME/dotfiles" ] && git clone --bare git@github.com:simbaclaws/dev-macos.git $HOME/dotfiles
 git --git-dir=$HOME/dotfiles/ --work-tree=$HOME checkout master
 
 # Installing Fonts
