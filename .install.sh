@@ -99,6 +99,7 @@ brew install lua
 brew install java
 brew install --cask julia
 brew install perl
+brew install --cask android-studio
 
 ### Neovim providers
 python3 -m pip install --user --upgrade pynvim
