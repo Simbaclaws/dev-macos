@@ -92,14 +92,15 @@ brew install go
 brew install rust
 brew install php
 brew install composer
-brew install node
 brew install pnpm
+brew install nvm
 brew install luarocks
 brew install lua
 brew install java
 brew install --cask julia
 brew install perl
 brew install --cask android-studio
+nvm install --lts
 
 ### Neovim providers
 python3 -m pip install --user --upgrade pynvim
@@ -171,9 +172,6 @@ git clone https://github.com/estin/simple-completion-language-server.git /tmp/si
 (cd /tmp/simple-completion-language-server && cargo install --path .)
 rm -rf /tmp/simple-completion-language-server
 
-
-source $HOME/.zshrc
-cfg config --local status.showUntrackedFiles no
 
 # Python Packages (mainly for data science)
 echo "Installing Python Packages..."
