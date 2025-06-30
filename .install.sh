@@ -46,9 +46,12 @@ brew install texlab
 brew install neovim
 brew install helix
 brew install starship
+brew install zsh
 brew install zsh-autosuggestions
 brew install zsh-fast-syntax-highlighting
 brew install zoxide
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 
 ### Nice to have
 brew install lulu
